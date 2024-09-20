@@ -6,8 +6,6 @@ metadata:
     app: bludspace
     release: {{ .Release.Name }}
     value: {{ .Values.bluespace.name }}
-    capa: {{ .Capabilities.KubeVersion }}
-    chart: {{ .Chart.Version }}
   name: {{ .Release.Name }}
 spec:
   replicas: 1
