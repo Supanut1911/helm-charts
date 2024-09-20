@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: bludspace
+    release: {{ .Release.Name }}
+    value: {{ .Values.bluespace.name }}
+    capa: {{ .Capabilities.KubeVersion }}
+    chart: {{ .Chart.Version }}
+  name: {{ .Release.Name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bludspace
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: bludspace
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
+status: {}
