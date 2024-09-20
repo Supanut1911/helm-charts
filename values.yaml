@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 bluespace:
-  name: bluespace-green
+  name: bluespacegreen
 
 replicaCount: 1
 
