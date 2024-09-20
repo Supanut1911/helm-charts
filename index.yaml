@@ -3,7 +3,17 @@ entries:
   bluespace:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-21T02:31:09.29061+07:00"
+    created: "2024-09-21T03:00:14.065705+07:00"
+    description: A Helm chart for Kubernetes
+    digest: d2fc06a7a72f56548b8b205e63dcf245267601cd6a225c7ea7c1368da72d1af5
+    name: bluespace
+    type: application
+    urls:
+    - https://supanut1911.github.io/helm-charts/bluespace-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-21T03:00:14.065325+07:00"
     description: A Helm chart for Kubernetes
     digest: f16dcc65866e9a73fad6048a139576813a2f5596592c82207e66f86df029e069
     name: bluespace
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://supanut1911.github.io/helm-charts/bluespace-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-21T02:31:09.289836+07:00"
+generated: "2024-09-21T03:00:14.064663+07:00"
